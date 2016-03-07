@@ -1,0 +1,31 @@
+Div
+{
+    width: 10%;
+   height: 10%; 
+}
+.board
+{
+    width: 800px;
+    height: 800px;
+    background-color: navajowhite;
+}
+.whiteCase
+{
+   width: 100px;
+   height: 100px; 
+background-color: whitesmoke;
+    display: inline-block;
+    
+}
+.blackCase
+{
+   width: 100px;
+   height: 100px; 
+    background-color: black;
+    display: inline-block;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+}

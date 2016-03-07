@@ -1,0 +1,74 @@
+<html>
+    
+    
+<head>
+<link rel="stylesheet" type="text/css" href="ChessBoard.css">
+<title>
+Chessboard    
+</title>    
+</head>
+    
+<body>
+    
+    <div class="board">
+<script type="text/javascript">
+    
+var count;
+    var i;
+    for(i = 0; i < 4; i++)
+        {
+    for (count = 0; count < 8; count++) 
+    {
+    
+            
+        if(count % 2 == 0)
+                {
+            
+                    
+                    document.write('<div class="whiteCase";>&nbsp</div>');
+                    
+                    
+                }
+                    
+            else
+                {
+                
+                    document.write('<div class="blackCase";>&nbsp</div>');
+        
+                }
+            
+
+    }
+    
+    for (count = 0; count < 8; count++) 
+    {
+    
+            
+        if(count % 2 == 0)
+                {
+            
+                    document.write('<div class="blackCase";>&nbsp</div>');
+                    
+                    
+                    
+                }
+                    
+            else
+                {
+                
+                    
+                    document.write('<div class="whiteCase";>&nbsp</div>');
+        
+                }
+            
+
+    }
+            }
+</script> 
+    </div>
+    
+    
+</body>
+
+
+</html>
